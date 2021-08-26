@@ -6,6 +6,14 @@ The essential collection of React Snippets and commands.
 
 ![snippets in action](images/snippets-in-action.gif)
 
+## Installation
+
+This needs [coc-snippets](https://github.com/neoclide/coc-snippets) to work properly.
+
+Run in your Neovim: `:CocInstall coc-simple-react-snippets coc-snippets`
+
+Or to get the latest version: `:CocInstall https://github.com/UltiRequiem/coc-simple-react-snippets`
+
 ## Features
 
 Only what you need and nothing more. **No Redux. No React Native.**
