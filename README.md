@@ -295,4 +295,3 @@ function | (|) {
   };
 }
 ```
-# coc-simple-react-snippets
