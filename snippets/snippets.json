@@ -1,24 +1,30 @@
 {
   "Import React": {
     "prefix": "imr",
-    "body": ["import * as React from 'react';"],
+    "body": ["import * as React from 'react'\n"],
     "description": "Import React"
   },
 
   "Import React and Component": {
     "prefix": "imrc",
     "body": [
-      "import * as React from 'react';",
+      "import * as React from 'react'\n",
       "import { Component } from 'react';"
     ],
     "description": "Import React, { Component }"
   },
 
+  "Import ReactDOM": {
+    "prefix": "imrd",
+    "body": ["import ReactDOM from 'react-dom'\n"],
+    "description": "Import ReactDOM"
+  },
+
   "Import React, { useState }": {
     "prefix": "imrs",
     "body": [
-      "import * as React from 'react';",
-      "import { useState } from 'react';"
+      "import * as React from 'react'",
+      "import { useState } from 'react'\n"
     ],
     "description": "Import React, { useState }"
   },
@@ -293,4 +299,3 @@
     "description": "Context Provider"
   }
 }
-

@@ -2,6 +2,9 @@
 
 A fork of [burkeholland/simple-react-snippets](https://github.com/burkeholland/simple-react-snippets).
 
+This fork applies some pull requests that have not yet been
+megerged in the original project because their author is inactive.
+
 The essential collection of React Snippets and commands.
 
 ![snippets in action](images/snippets-in-action.gif)
@@ -30,6 +33,7 @@ that work the way that you would expect, not just a copy of the documentation.
 | ------- | --------------------------------------------- |
 | `imr`   | Import React                                  |
 | `imrc`  | Import React / Component                      |
+| `imrd`  | Import ReactDOM                               |
 | `imrs`  | Import React / useState                       |
 | `imrse` | Import React / useState useEffect             |
 | `impt`  | Import PropTypes                              |
@@ -69,6 +73,12 @@ import * as React from 'react'
 ```javascript
 import * as React from 'react'
 import { Component } from 'react'
+```
+
+### imrd - Import ReactDOM
+
+```javascript
+import ReactDOM from 'react-dom'
 ```
 
 ### imrs - Import React, useState
