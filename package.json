@@ -2,16 +2,17 @@
   "name": "coc-simple-react-snippets",
   "displayName": "Simple React Snippets",
   "description": "Dead simple React snippets you will actually use",
-  "version": "1.1.0",
+  "version": "1.2.0",
   "author": "Eliaz Bobadilla <eliaz.bobadilladev@gmail.com>",
   "repository": {
     "type": "git",
     "url": "https://github.com/UltiRequiem/coc-simple-react-snippets.gi5"
   },
+  "funding": {
+    "type": "patreon",
+    "url": "https://www.patreon.com/ultirequiem"
+  },
   "keywords": [
-    "React",
-    "React JS",
-    "React Snippets",
     "coc.nvim"
   ],
   "engines": {
@@ -20,21 +21,21 @@
   "activationEvents": [
     "onLanguage:javascript",
     "onLanguage:javascriptreact",
-    "onLanguage:typescritreact"
+    "onLanguage:typescriptreact"
   ],
   "contributes": {
     "snippets": [
       {
         "language": "javascriptreact",
-        "path": "./snippets/snippets.json"
+        "path": "./src/javascript.json"
       },
       {
         "language": "javascript",
-        "path": "./snippets/snippets.json"
+        "path": "./src/javascript.json"
       },
       {
         "language": "typescriptreact",
-        "path": "./snippets/snippets-ts.json"
+        "path": "./src/typescript.json"
       }
     ]
   }
