@@ -1,12 +1,12 @@
 {
   "name": "coc-simple-react-snippets",
   "displayName": "Simple React Snippets",
-  "description": "Dead simple React snippets you will actually use",
-  "version": "1.2.0",
+  "description": "Dead simple React snippets you will actually use.",
+  "version": "1.3.0",
   "author": "Eliaz Bobadilla <eliaz.bobadilladev@gmail.com>",
   "repository": {
     "type": "git",
-    "url": "https://github.com/UltiRequiem/coc-simple-react-snippets.gi5"
+    "url": "https://github.com/UltiRequiem/coc-simple-react-snippets"
   },
   "funding": {
     "type": "patreon",
