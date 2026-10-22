@@ -38,5 +38,6 @@
         "path": "./src/typescript.json"
       }
     ]
-  }
+  },
+  "packageManager": "pnpm@12.6.0"
 }
