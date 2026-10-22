@@ -8,10 +8,6 @@
     "type": "git",
     "url": "git+https://github.com/UltiRequiem/coc-simple-react-snippets.git"
   },
-  "funding": {
-    "type": "patreon",
-    "url": "https://www.patreon.com/ultirequiem"
-  },
   "keywords": [
     "coc.nvim"
   ],
@@ -39,5 +35,10 @@
       }
     ]
   },
-  "packageManager": "pnpm@12.6.0"
+  "packageManager": "pnpm@12.6.0",
+  "main": "index.js",
+  "files": [
+    "index.js",
+    "src"
+  ]
 }
