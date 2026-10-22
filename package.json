@@ -6,7 +6,7 @@
   "author": "Eliaz Bobadilla <eliaz.bobadilladev@gmail.com>",
   "repository": {
     "type": "git",
-    "url": "https://github.com/UltiRequiem/coc-simple-react-snippets"
+    "url": "git+https://github.com/UltiRequiem/coc-simple-react-snippets.git"
   },
   "funding": {
     "type": "patreon",
